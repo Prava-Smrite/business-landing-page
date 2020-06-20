@@ -1,136 +1,275 @@
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 480px) and (max-width: 575.98px) {
+
     /*header area start*/
     .menu {
         text-align: right;
     }
+
     /*header area end*/
     /*banner area start*/
+    .banner {
+        padding: 35px 0;
+    }
+
+    .banner-content h2 {
+        font-size: 30px;
+    }
+
+    .banner-content p {
+        font-size: 11px;
+    }
+
+    form .form-custom {
+        border-radius: 0;
+        width: 100%;
+        height: 42px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        margin-bottom: 3%;
+    }
+
+    form .form-custom-2 {
+        border-radius: 0;
+        width: 100%;
+        height: 42px;
+        font-size: 14x;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        margin-left: 0%;
+        margin-bottom: 3%;
+    }
+
+    form .btn-custom-2 {
+        width: 100%;
+        height: 43px;
+        background: #ae2c52;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1px;
+        padding: 5px 25px;
+        border-radius: 0;
+        margin-left: 0%;
+        font-size: 15px;
+    }
+
+    form {
+        margin-bottom: 5%;
+    }
+
+    .form-bottom {
+        font-size: 10px;
+    }
+
     /*banner area end*/
     /*service area start*/
     .service {
         padding: 25px 0;
     }
+
     .fst-service {
         padding-bottom: 20px;
     }
+
     .service-img i {
         padding-bottom: 15px;
         font-size: 65px;
     }
+
     .service-area h3 {
         padding-bottom: 5px;
     }
+
     /*service area end*/
     /*explore area start*/
     .explore {
         padding: 25px 0;
     }
+
     .explore-content h2 {
         font-size: 17px;
         padding-bottom: 12px;
         font-weight: 600;
     }
+
     .explore-content p {
         font-size: 14px;
         padding-bottom: 13px;
     }
+
     .explore-content .btn-custom {
         width: 100%;
         font-size: 16px;
         padding: 7px 35px;
         height: 40px;
     }
+
     /*explore area end*/
     /*call-to-action area start*/
     .call-to-action {
         padding: 30px 0;
     }
+
     .call-to-action h2 {
         padding-bottom: 20px;
         font-size: 18px;
     }
+
     /*call-to-action area end*/
     /*testimunial area start*/
     .slider {
         padding: 25px 0;
     }
+
     .slider-icon i {
         padding-bottom: 15px;
     }
+
     .slider-content p {
         font-size: 13px;
         padding: 0 5% 22px 5%;
     }
+
     /*testimunial area end*/
     /*footer area start*/
     .footer-content {
         padding: 20px 0;
     }
+
     .footer-content p {
         font-size: 10px;
         padding: 0 18%;
     }
+
     /*footer area end*/
 }
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     /*header area start*/
     .menu {
         text-align: right;
     }
+
     /*header area end*/
     /*banner area start*/
+    .banner {
+        padding: 40px 0;
+    }
+
+    .banner-content h2 {
+        font-size: 30px;
+    }
+
+    .banner-content p {
+        font-size: 11px;
+    }
+
+    form .form-custom {
+        border-radius: 0;
+        width: 110%;
+        height: 42px;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        margin-bottom: 3%;
+    }
+
+    form .form-custom-2 {
+        border-radius: 0;
+        width: 118%;
+        height: 42px;
+        font-size: 16x;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        margin-left: 0%;
+        font-size: 13px;
+    }
+
+    form .btn-custom-2 {
+        width: 127px;
+        height: 43px;
+        background: #ae2c52;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1px;
+        padding: 5px 25px;
+        border-radius: 0;
+        margin-left: 8%;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .form-bottom {
+        font-size: 8px;
+        font-weight: 400;
+        padding-top: 23px;
+
+    }
+
     /*banner area end*/
     /*service area start*/
     .service {
         padding: 35px 0;
     }
+
     .service-img i {
         padding-bottom: 20px;
         font-size: 50px;
     }
+
     .service-area h3 {
         padding-bottom: 5px;
         font-size: 14px;
         font-weight: 600;
         text-transform: capitalize;
     }
+
     .service-area p {
         padding: 0 0%;
         font-size: 13px;
     }
+
     /*service area end*/
     /*explore area start*/
     .explore {
         padding: 40px 0;
     }
+
     .explore-content h2 {
         font-size: 20px;
         padding-bottom: 15px;
         font-weight: 600;
     }
+
     .explore-content p {
         font-size: 13px;
         padding-bottom: 15px;
     }
+
     .explore-content .btn-custom {
         width: 100%;
         font-size: 16px;
         height: 50px;
     }
+
     /*explore area end*/
     /*call-to-action area start*/
     .call-to-action {
         padding: 35px 0;
     }
+
     .call-to-action h2 {
         font-size: 15px;
         font-weight: 400;
     }
+
     .call-area-button {
         margin-left: -55%;
     }
+
     .call-area-button .btn-custom {
         width: 110px;
         height: 33px;
@@ -138,181 +277,311 @@
         padding: 6px 17px;
         font-size: 11px;
     }
+
     /*call-to-action area end*/
     /*testimunial area start*/
     .slider {
         padding: 20px 0;
     }
+
     .slider-icon i {
         padding-bottom: 15px;
     }
+
     .slider-content p {
         font-size: 13px;
         padding: 0 0% 25px 0%;
     }
+
     /*testimunial area end*/
     /*footer area start*/
     .footer-content {
         padding: 20px 0;
     }
+
     .footer-content p {
         font-size: 11px;
         padding: 0 18%;
     }
+
     /*footer area end*/
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     /*header area start*/
     .menu {
         text-align: right;
     }
+
     /*header area end*/
     /*banner area start*/
+    .banner {
+        padding: 55px 0;
+    }
+
+    .banner-content h2 {
+        font-size: 35px;
+    }
+
+    .banner-content p {
+        font-size: 12px;
+    }
+
+    form .form-custom {
+        border-radius: 0;
+        width: 110%;
+        height: 42px;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+    }
+
+    form .form-custom-2 {
+        border-radius: 0;
+        width: 110%;
+        height: 42px;
+        font-size: 16x;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        margin-left: 0%;
+    }
+
+    form .btn-custom-2 {
+        width: 191px;
+        height: 43px;
+        background: #ae2c52;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1px;
+        padding: 5px 25px;
+        border-radius: 0;
+        margin-left: 4%;
+        font-size: 20px;
+    }
+
+    .form-bottom {
+        font-size: 10px;
+    }
+
     /*banner area end*/
     /*service area start*/
     .service {
         padding: 35px 0;
     }
+
     .service-img i {
         padding-bottom: 20px;
         font-size: 68px;
     }
+
     .service-area h3 {
         padding-bottom: 10px;
         font-size: 15px;
         font-weight: 700;
         text-transform: capitalize;
     }
+
     .service-area p {
         padding: 0 0%;
     }
+
     /*service area end*/
     /*explore area start*/
     .explore {
         padding: 40px 0;
     }
+
     .explore-content h2 {
         font-size: 32px;
         padding-bottom: 18px;
     }
+
     .explore-content p {
         font-size: 14px;
         padding-bottom: 15px;
     }
+
     .explore-content .btn-custom {
         width: 100%;
         font-size: 18px;
         height: 55px;
     }
+
     /*explore area end*/
     /*call-to-action area start*/
     .call-to-action {
         padding: 35px 0;
     }
+
     .call-to-action h2 {
         font-size: 18px;
         font-weight: 400;
     }
+
     .call-area-button {
         margin-left: -50%;
     }
+
     .call-area-button .btn-custom {
         width: 163px;
         height: 43px;
         font-size: 14px;
     }
+
     /*call-to-action area end*/
     /*testimunial area start*/
     .slider {
         padding: 20px 0;
     }
+
     .slider-icon i {
         padding-bottom: 15px;
     }
+
     .slider-content p {
         font-size: 17px;
         padding: 0 5% 25px 5%;
     }
+
     /*testimunial area end*/
     /*footer area start*/
+    .footer-content {
+        padding: 30px 0;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+    }
+
+    /*footer area end*/
 }
-.footer-content {
-    padding: 30px 0;
-}
-.footer-content p {
-    font-size: 13px;
-}
-/*footer area end*/
-}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     /*header area start*/
-    .menu ul li {
-        margin-right: -2px;
+    .header {
+        padding: 5px 5px;
     }
+
     /*header area end*/
     /*banner area start*/
+    .banner {
+        padding: 65px 0;
+    }
+
+    .banner-content h2 {
+        font-size: 38px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+
+    form .form-custom {
+        width: 110%;
+    }
+
+    form .form-custom-2 {
+        border-radius: 0;
+        width: 110%;
+        height: 42px;
+        font-size: 16x;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        margin-left: 4%;
+    }
+
+    form .btn-custom-2 {
+        width: 203px;
+        height: 43px;
+        background: #ae2c52;
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1px;
+        padding: 5px 25px;
+        border-radius: 0;
+        margin-left: 8%;
+        font-size: 20px;
+    }
+
     /*banner area end*/
     /*service area start*/
     .service {
         padding: 45px 0;
     }
+
     .service-img i {
         padding-bottom: 30px;
         font-size: 70px;
     }
+
     .service-area h3 {
         padding-bottom: 15px;
         font-size: 22px;
     }
+
     .service-area p {
         padding: 0 11%;
     }
+
     /*service area end*/
     /*explore area start*/
     .explore {
         padding: 45px 0;
     }
+
     .explore-content h2 {
         font-size: 35px;
         padding-bottom: 25px;
     }
+
     .explore-content p {
         font-size: 14px;
         padding-bottom: 30px;
     }
+
     .explore-content .btn-custom {
         width: 190px;
         height: 55px;
         font-size: 16px;
     }
+
     /*explore area end*/
     /*call-to-action area start*/
     .call-to-action {
         padding: 30px 0;
     }
+
     .call-to-action h2 {
         font-size: 24px;
     }
+
     .call-area-button {
         margin-left: -60%;
     }
+
     /*call-to-action area end*/
     /*testimunial area start*/
     .footer-content p {
         font-size: 13px;
     }
+
     /*testimunial area end*/
     /*footer area start*/
     .footer-content {
         padding: 35px 0;
     }
+
     .footer-content p {
         font-size: 13px;
     }
+
     /*footer area end*/
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     /*header area start*/
